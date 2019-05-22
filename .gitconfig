@@ -1,0 +1,23 @@
+[user]
+    name = Katherine Gilhooley
+    email = gilhooley@orionlabs.io
+[core]
+    autocrlf = false
+    safecrlf = true
+    editor = atom
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:‘%h %ad | %s%d [%an]' --graph --date=short
+    # type = cat-file -t
+    # dump = cat-file -p
+[url "https://"]
+    insteadOf = git://
+[github]
+    user = gilhooley
+[credential]
+    helper = osxkeychain
+[branch]
+    autosetuprebase = always
